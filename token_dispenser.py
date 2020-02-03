@@ -18,10 +18,10 @@ class TokenDispenser(socketserver.BaseRequestHandler):
 			self.gsfid = hex(self.api.gsfId).replace('0x', '')
 
 			print("Token: {}, gsfId: {}".format(self.token, self.gsfid))
-			self.request.sendall(str.encode(self.token + " " + self.gsfid))
+			self.request.sendall(str.encode("HTTP/1.1 200 OK\n\n" + self.token + " " + self.gsfid))
 		except (LoginError, SecurityCheckError) as e:
 			print("Error: " + str(e))
-			self.request.sendall(str.encode(str(e)))
+			self.request.sendall(str.encode("HTTP/1.1 200 OK\n\n" + str(e)))
 
 if __name__ == "__main__":
 	socketserver.TCPServer.allow_reuse_address = True # Prevent 'cannot bind to address' errors on restart
