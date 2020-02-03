@@ -1,7 +1,0 @@
-[Credentials]
-gmail_address=email@gmail.com
-gmail_password=password
-
-[Locale]
-locale=en_GB
-timezone=CEST
