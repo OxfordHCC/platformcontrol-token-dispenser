@@ -16,3 +16,16 @@ A  random couple (login, password) from `passwords/passwords.txt` is used, to lo
 Often, the token generation will fail. In these cases, one has to manually visit (sometimes multiple times) the following website, after which the process can continue:
 
 https://accounts.google.com/b/0/DisplayUnlockCaptcha
+
+## Citation
+
+If you use this project as part of your academic studies, please kindly cite the below article:
+
+```
+@article{kollnig2021,
+      title={Are iPhones Really Better for Privacy? A Comparative Study of iOS and Android Apps}, 
+      author={Konrad Kollnig and Anastasia Shuba and Reuben Binns and Max {Van Kleek} and Nigel Shadbolt},
+      year={2021},
+      journal={arXiv preprint arXiv:2109.13722}
+}
+```
