@@ -1,5 +1,8 @@
-# python-token-dispenser
-Stores email-password pairs, gives out Google Play Store tokens and GSFid.
+# PlatformControl: Token Dispenser
+
+*This project is part of PlatformControl: <https://github.com/OxfordHCC/PlatformControl>*
+
+Stores email-password pairs, gives out Google Play Store tokens and GSFid. This helps the download of Android apps at scale.
 
 This repository ports the https://github.com/yeriomin/token-dispenser to Python. This is due to problems with using the existing API.
 
