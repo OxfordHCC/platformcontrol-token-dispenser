@@ -22,7 +22,7 @@ https://accounts.google.com/b/0/DisplayUnlockCaptcha
 
 ## Citation
 
-If you use this project as part of your academic studies, please kindly cite the below article:
+If you use this project as part of your academic studies, please kindly cite the below articles:
 
 ```
 @article{kollnig2021_iphone_android,
