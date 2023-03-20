@@ -1,6 +1,6 @@
 # PlatformControl: Token Dispenser
 
-*This project is part of PlatformControl: <https://github.com/OxfordHCC/PlatformControl>*
+*This project is part of PlatformControl: <https://github.com/TrackerControl/PlatformControl>*
 
 Stores email-password pairs, gives out Google Play Store tokens and GSFid. This helps the download of Android apps at scale.
 
